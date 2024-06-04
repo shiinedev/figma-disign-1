@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.conatiner{
+    max-width:78.81rem;
+   
+    margin-inline: auto;
+}
+
+img{
+    width: 100%;
+    border-radius: 1rem;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 1.5rem;
+    margin-top: 4rem;
+    /* padding-inline:5.625rem ; */
+}
+.waves-left{
+    background: url('https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGFwdG9wfGVufDB8fDB8fHww')center/cover no-repeat;
+    border-radius: 1rem;
+}
+
+.waves-right{
+    background: url('https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D')center/cover no-repeat;
+    border-radius: 1rem;
+}
+.top{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.text-midle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+}
+.text-midle h2{
+    font-size: 4rem;
+    line-height: 5rem;
+}
+.text-midle p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #767676;
+}
+.text-midle button{
+    background-color: #252525;
+    color: #fff;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+.left-bar p{
+    font-size: 1.75rem;
+    line-height: 3.00rem;
+    margin-bottom: 1rem;
+}
+
+#left-img{
+    margin-top: 4rem;
+    margin-bottom: 166px;
+    width:11.25rem;
+   height: 15.63rem;
+   background: url('https://images.unsplash.com/photo-1559582798-678dfc71ccd8?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+   
+}
+.center{
+    height: 36.38rem;
+    grid-column: 2/ span 3;
+    display: grid;
+   grid-template-columns: repeat(3,1fr);
+   gap: 1.5rem;
+  
+}
+.img{
+    border-radius: 1rem;
+}
+.center #img1{
+   
+    background: url('https://images.unsplash.com/photo-1571513800374-df1bbe650e56?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+}
+.center #img2{
+    background: url('https://images.unsplash.com/photo-1530735038726-a73fd6e6a349?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+    grid-row: 2;
+    margin-bottom:2.5625rem ;
+   
+}
+.center #img3{
+    background: url('https://images.unsplash.com/photo-1568306281824-7afe898030d1?q=80&w=1370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+    width: 18.19rem;
+    grid-row: 1/ span 2;
+}
+.center #img4{
+    background: url('https://images.unsplash.com/photo-1559697242-a465f2578a95?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+    margin-top:2.5625rem ;
+}
+
+.center #img5{
+    background: url('https://images.unsplash.com/photo-1597196526281-fe4861daa915?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+
+}
+.right-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+
+}
+.right-bar p{
+    font-size: 1.75rem;
+    line-height: 3.00rem;
+    margin-bottom: 1.5rem;
+}
+
+#right-img{
+    margin-top: 7.875rem;
+    width:11.25rem;
+   height: 15.63rem;
+   background: url('https://images.unsplash.com/photo-1559582798-678dfc71ccd8?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')center/cover no-repeat;
+   
+}
+@media(max-width:480px){
+    .grid-container{
+        grid-template-columns: 1fr;
+    }
+    .top{
+        grid-template-columns: 1fr;
+    }
+    .center{
+        grid-template-columns: 1fr;
+    }
+}
